@@ -34,7 +34,7 @@ metadata:
   name: app1
 spec:
   selector:
-    app: app1-pod
+    app: app1
   ports:
   - protocol: TCP
     port: 80 #service-port
