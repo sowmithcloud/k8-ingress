@@ -48,10 +48,10 @@ kind: Ingress
 metadata:
   name: ingress-wildcard-host
   annotations:
-        alb.ingress.kubernetes.io/scheme: internet-facing
-        alb.ingress.kubernetes.io/target-type: ip
-        alb.ingress.kubernetes.io/group.name: alb-ingress-group
-        alb.ingress.kubernetes.io/tags: Environment=dev,Project=roboshop
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/group.name: alb-ingress-group
+    alb.ingress.kubernetes.io/tags: Environment=dev,Project=roboshop
 spec:
   ingressClassName: alb
   rules:
