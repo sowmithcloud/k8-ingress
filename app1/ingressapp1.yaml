@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: sowmithdocker/app1:v1
         ports:
         - containerPort: 80
         resources:
